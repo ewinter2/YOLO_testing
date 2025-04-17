@@ -5,9 +5,6 @@ import csv
 from collections import defaultdict
 import os
 
-# Set Tesseract path (uncomment for your system)
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
 def extract_text_from_image(image_path):
     """Extract text from an image using Tesseract OCR"""
     try:
